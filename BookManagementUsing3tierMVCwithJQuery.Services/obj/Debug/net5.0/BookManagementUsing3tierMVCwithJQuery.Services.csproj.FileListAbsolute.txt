@@ -1,0 +1,15 @@
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.csproj.AssemblyReference.cache
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.AssemblyInfoInputs.cache
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.AssemblyInfo.cs
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.csproj.CoreCompileInputs.cache
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\bin\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.deps.json
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\bin\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\bin\Debug\net5.0\ref\BookManagementUsing3tierMVCwithJQuery.Services.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\bin\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.pdb
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\bin\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\bin\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.pdb
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.csproj.CopyComplete
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\ref\BookManagementUsing3tierMVCwithJQuery.Services.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Services\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Services.pdb

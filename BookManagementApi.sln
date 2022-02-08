@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementUsing3tierMVCwithJQuery", "BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.csproj", "{C9A709C1-3A99-4D07-AE38-866E3DBBFB9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementUsing3tierMVCwithJQuery.Core", "BookManagementUsing3tierMVCwithJQuery.Core\BookManagementUsing3tierMVCwithJQuery.Core.csproj", "{6D15A059-D92D-4C94-8E55-242350E3EE7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementUsing3tierMVCwithJQuery.Resource", "BookManagementUsing3tierMVCwithJQuery.Resource\BookManagementUsing3tierMVCwithJQuery.Resource.csproj", "{DA7103EB-CC1F-43CF-9F64-0DA391A16667}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementUsing3tierMVCwithJQuery.Services", "BookManagementUsing3tierMVCwithJQuery.Services\BookManagementUsing3tierMVCwithJQuery.Services.csproj", "{A2FF3997-CE0B-4037-9F14-4ABC42B9C463}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementUsing3tierMVCwithJQuery.Utility", "BookManagementUsing3tierMVCwithJQuery.Utility\BookManagementUsing3tierMVCwithJQuery.Utility.csproj", "{0D9F39D3-04A2-4018-8C88-62CF015FE517}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookManagementUsing3tierMVCwithJQuery.Api", "BookManagementUsing3tierMVCwithJQuery.API\BookManagementUsing3tierMVCwithJQuery.Api.csproj", "{5A151192-C948-4459-BFA9-C3AC6516ED3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9A709C1-3A99-4D07-AE38-866E3DBBFB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A709C1-3A99-4D07-AE38-866E3DBBFB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A709C1-3A99-4D07-AE38-866E3DBBFB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A709C1-3A99-4D07-AE38-866E3DBBFB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D15A059-D92D-4C94-8E55-242350E3EE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D15A059-D92D-4C94-8E55-242350E3EE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D15A059-D92D-4C94-8E55-242350E3EE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D15A059-D92D-4C94-8E55-242350E3EE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7103EB-CC1F-43CF-9F64-0DA391A16667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7103EB-CC1F-43CF-9F64-0DA391A16667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7103EB-CC1F-43CF-9F64-0DA391A16667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7103EB-CC1F-43CF-9F64-0DA391A16667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FF3997-CE0B-4037-9F14-4ABC42B9C463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FF3997-CE0B-4037-9F14-4ABC42B9C463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FF3997-CE0B-4037-9F14-4ABC42B9C463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FF3997-CE0B-4037-9F14-4ABC42B9C463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9F39D3-04A2-4018-8C88-62CF015FE517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9F39D3-04A2-4018-8C88-62CF015FE517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9F39D3-04A2-4018-8C88-62CF015FE517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9F39D3-04A2-4018-8C88-62CF015FE517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A151192-C948-4459-BFA9-C3AC6516ED3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A151192-C948-4459-BFA9-C3AC6516ED3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A151192-C948-4459-BFA9-C3AC6516ED3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A151192-C948-4459-BFA9-C3AC6516ED3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0887BD49-227A-4E32-BC98-09F9C8AB44B2}
+	EndGlobalSection
+EndGlobal

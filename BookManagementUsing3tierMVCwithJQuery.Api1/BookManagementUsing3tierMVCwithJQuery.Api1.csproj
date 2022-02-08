@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookManagementUsing3tierMVCwithJQuery.Core\BookManagementUsing3tierMVCwithJQuery.Core.csproj" />
+    <ProjectReference Include="..\BookManagementUsing3tierMVCwithJQuery.Resource\BookManagementUsing3tierMVCwithJQuery.Resource.csproj" />
+    <ProjectReference Include="..\BookManagementUsing3tierMVCwithJQuery.Services\BookManagementUsing3tierMVCwithJQuery.Services.csproj" />
+    <ProjectReference Include="..\BookManagementUsing3tierMVCwithJQuery.Utility\BookManagementUsing3tierMVCwithJQuery.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,293 @@
+﻿@model BookManagementUsing3tierMVCwithJQuery.Core.Model.AdminLoginModel
+
+@{
+    ViewBag.Title = "SignUp";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+          integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+          integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+    <script src="https://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+    <style>
+        a.two:link {
+            color: #ff0000;
+        }
+
+        a.two:visited {
+            color: #30A3F1;
+        }
+
+        #password-error, #AdminId-error, #RetypePassword-error {
+            position: absolute;
+            
+          
+        }
+
+        .error {
+            color: red;
+            font-style: normal;
+            white-space: pre-line;
+        }
+
+        #k1{
+            margin-top:150px;
+            margin-left:-100px;
+        }
+        #k2 {
+            margin-left: 180px;
+            margin-top: 140px;
+            color: grey;
+        }
+
+        #k8 {
+            width: 50%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            resize: vertical;
+        }
+
+        input.form-control {
+            width: 50%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            resize: vertical;
+            padding-left: 60px;
+            box-shadow: 5px 5px 5px grey;
+            margin-top:35px;
+            margin-bottom:5px;
+        }
+
+        #k4 {
+            margin-top: 5px;
+            margin-left: 565px;
+            background-color: #30A3F1;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            padding: 12px 100px;
+            border-radius: 30px;
+        }
+
+        #k9 {
+            margin-top: 30px;
+            margin-left: 90px;
+        }
+
+        .form-check {
+            margin-left: 10px;
+        }
+
+        #k5 {
+            margin-left: 80px;
+        }
+
+        #k6 {
+            color: black;
+            text-align: center;
+            margin-left: -420px;
+            margin-bottom: 30px;
+        }
+
+        #k7 {
+            color: #0000ff;
+            text-decoration-line: underline;
+        }
+
+        .Icon-inside {
+            position: relative;
+        }
+
+            .Icon-inside i {
+                position: absolute;
+                left: 0;
+                top: 1px;
+                padding: 15px 15px;
+                color: #30A3F1;
+            }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="row">
+
+        <div class="col-7">
+            <div class="container" id="k2">
+                @using (Html.BeginForm("SignUp", "Admin", FormMethod.Post, new { @id = "form4", autocomplete = "off" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    @Html.ValidationSummary()
+
+                    <div id="k6">
+                        <h2 style="font-family: Lucida Console" , Courier New, monospace>Sign Up</h2>
+                    </div>
+
+
+
+
+                    <div class="form-group">
+                        <div class="Icon-inside">
+                            @Html.TextBoxFor(model => model.AdminId, htmlAttributes: new { @class = "form-control", name = "AdminId", id = "AdminId" , placeholder = "AdminId" })
+
+                            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>
+                        @Html.ValidationMessageFor(model => model.AdminId, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <div class="Icon-inside">
+                            @Html.PasswordFor(model => model.Password, htmlAttributes: new { @class = "form-control", name = "Password", id = "password" ,placeholder="Password"})
+
+                            <i class="fas fa-lock" aria-hidden="true"></i>
+                        </div>
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <div class="Icon-inside">
+                            @Html.PasswordFor(model => model.RetypePassword, htmlAttributes: new { @class = "form-control", name = "RetypePassword", id = "RetypePassword", placeholder = "Re-type Password" })
+
+                            <i class="fas fa-check" aria-hidden="true"></i>
+                        </div>
+                        @Html.ValidationMessageFor(model => model.RetypePassword, "", new { @class = "text-danger" })
+                    </div>
+
+
+                    <div id="k9">
+                       
+                        <input type="submit" value="Sign In"  aria-pressed="false" class="btn btn-primary" id="k4" />
+                    </div>
+
+
+                    <br>
+                    <div id="k5">
+                        <p>
+                            Already have an account? <a onclick="Login()" id="k7" class="two"
+                                                        style="text-align: center;">
+                                LogIn
+                            </a>
+                        </p>
+
+                    </div>
+
+                }
+            </div>
+
+        </div>
+        <div class="col-5">
+            <div class="container" id="k1" style="background-color: #fff;">
+                <img src="~/SignUp.png"  class="img-fluid" alt="Flowers in Chania"/>
+                
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+
+        jQuery.validator.addMethod("noSpace", function (value, element) {
+            return value == '' || value.trim().length != 0;
+        }, "No space please and don't leave it empty");
+
+
+        $.validator.addMethod('strongPassword', function (value, element) {
+            return this.optional(element)
+                || value.length >= 6
+                && /\d/.test(value)
+                && /[a-z]/i.test(value);
+        }, 'Your password must be at least 6 characters long and contain at least one number and one char\'.');
+
+        var $AdminSignUp = $('#form4');
+
+
+        if ($AdminSignUp.length) {
+            $AdminSignUp.validate({
+
+
+                rules: {
+                    AdminId: {
+                        required: true,
+                        noSpace: true
+                    },
+                    Password: {
+                        required: true
+                    },
+                    RetypePassword: {
+                        required: true,
+                        equalTo: '#password'
+                    }
+
+                },
+                messages:
+                {
+                    AdminId: {
+
+                        required: 'Please enter AdminId!'
+                    },
+                    Password: {
+
+                        required: 'Please enter password!'
+
+                    },
+                    RetypePassword: {
+                        required: 'Please enter retypepassword!'
+                    }
+
+                }
+            });
+        }
+
+          function Login() {
+            window.location.href = "@Url.Action("LoginView", "Admin")?Id=" ;
+           }
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
+
+

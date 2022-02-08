@@ -1,0 +1,352 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj",
+        "projectName": "BookManagementUsing3tierMVCwithJQuery.Core",
+        "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj",
+        "packagesPath": "C:\\Users\\STS586-KAVIN AS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\STS586-KAVIN AS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Resource\\BookManagementUsing3tierMVCwithJQuery.Resource.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Resource\\BookManagementUsing3tierMVCwithJQuery.Resource.csproj",
+        "projectName": "BookManagementUsing3tierMVCwithJQuery.Resource",
+        "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Resource\\BookManagementUsing3tierMVCwithJQuery.Resource.csproj",
+        "packagesPath": "C:\\Users\\STS586-KAVIN AS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Resource\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\STS586-KAVIN AS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj": {
+                "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Services\\BookManagementUsing3tierMVCwithJQuery.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Services\\BookManagementUsing3tierMVCwithJQuery.Services.csproj",
+        "projectName": "BookManagementUsing3tierMVCwithJQuery.Services",
+        "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Services\\BookManagementUsing3tierMVCwithJQuery.Services.csproj",
+        "packagesPath": "C:\\Users\\STS586-KAVIN AS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\STS586-KAVIN AS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj": {
+                "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Utility\\BookManagementUsing3tierMVCwithJQuery.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Utility\\BookManagementUsing3tierMVCwithJQuery.Utility.csproj",
+        "projectName": "BookManagementUsing3tierMVCwithJQuery.Utility",
+        "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Utility\\BookManagementUsing3tierMVCwithJQuery.Utility.csproj",
+        "packagesPath": "C:\\Users\\STS586-KAVIN AS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\STS586-KAVIN AS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj": {
+                "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj"
+              },
+              "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Resource\\BookManagementUsing3tierMVCwithJQuery.Resource.csproj": {
+                "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Resource\\BookManagementUsing3tierMVCwithJQuery.Resource.csproj"
+              },
+              "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Services\\BookManagementUsing3tierMVCwithJQuery.Services.csproj": {
+                "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Services\\BookManagementUsing3tierMVCwithJQuery.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Web.csproj",
+        "projectName": "BookManagementUsing3tierMVCwithJQuery.Web",
+        "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Web.csproj",
+        "packagesPath": "C:\\Users\\STS586-KAVIN AS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\STS586-KAVIN AS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj": {
+                "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Core\\BookManagementUsing3tierMVCwithJQuery.Core.csproj"
+              },
+              "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Utility\\BookManagementUsing3tierMVCwithJQuery.Utility.csproj": {
+                "projectPath": "C:\\Users\\STS586-KAVIN AS\\source\\repos\\BookManagementUsing3tierMVCwithJQuery\\BookManagementUsing3tierMVCwithJQuery.Utility\\BookManagementUsing3tierMVCwithJQuery.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

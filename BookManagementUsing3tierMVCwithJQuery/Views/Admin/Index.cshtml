@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+   
+}
+
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#firstTab">View All</a></li>
+    <li ><a a data-toggle="tab" href="#secondTab">Add New</a></li>
+
+</ul>
+<div class="tab-content">
+    <div id="firstTab" href="javascript: void(0)" class="tab-pane fade in active"> @Html.ActionLink("Login","Admin")></div>
+    <div id="secondTab" class="tab-pane fade in  "> @Html.ActionLink("SignUp", "Admin")</div>
+
+
+</div>

@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = BookManagementUsing3tierMVCwithJQuery.Resource
+build_property.ProjectDir = C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Resource\

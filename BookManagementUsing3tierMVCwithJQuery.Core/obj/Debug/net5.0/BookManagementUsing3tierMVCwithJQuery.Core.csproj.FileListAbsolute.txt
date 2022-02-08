@@ -1,0 +1,12 @@
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.AssemblyInfoInputs.cache
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.AssemblyInfo.cs
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.csproj.CoreCompileInputs.cache
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\bin\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.deps.json
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\bin\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\bin\Debug\net5.0\ref\BookManagementUsing3tierMVCwithJQuery.Core.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\bin\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.pdb
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\obj\Debug\net5.0\ref\BookManagementUsing3tierMVCwithJQuery.Core.dll
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.pdb
+C:\Users\STS586-KAVIN AS\source\repos\BookManagementUsing3tierMVCwithJQuery\BookManagementUsing3tierMVCwithJQuery.Core\obj\Debug\net5.0\BookManagementUsing3tierMVCwithJQuery.Core.csproj.AssemblyReference.cache

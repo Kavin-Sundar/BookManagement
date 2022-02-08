@@ -1,0 +1,303 @@
+﻿@model BookManagementUsing3tierMVCwithJQuery.Core.Model.AdminLoginModel
+
+@{
+    ViewBag.Title = "LoginView";
+    Layout = null;
+
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+    <script src="https://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+  
+
+    <style>
+        #AdminId-error, #Password-error, #successMessage {
+            color: red;
+        }
+
+        #k1 {
+            margin-top: 170px;
+            margin-left: -100px;
+        }
+
+        #k2 {
+            margin-top: 150px;
+            color: grey;
+        }
+
+        input.form-control {
+            width: 70%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            resize: vertical;
+            margin-bottom: 10px;
+        }
+
+        #k4 {
+            margin-top: 5px;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            padding: 12px 155px;
+            border-radius: 30px;
+        }
+
+        .form-check {
+            margin-left: -10px;
+        }
+
+        #k5 {
+            margin-top: 10px;
+        }
+
+        #k6 {
+            color: black;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: #2E67F8;
+            text-decoration-thickness: 5px;
+            margin-bottom: 30px;
+            text-underline-offset: 3px;
+        }
+
+        #k7 {
+            color: #0000ff;
+            text-decoration-line: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="container" id="k1" style="background-color: #fff;">
+
+                    <img src="~/Login.png" class="img-fluid" alt="Flowers in Chania" />
+                    <!-- <div style="text-align: center;">
+                          <a href="https://www.w3schools.com" class="two" style="text-align: center;" >Visit W3Schools.com!</a>
+                        </div> -->
+
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="container" id="k2">
+                    <div id="k6">
+                        <h3>LOGIN</h3>
+                    </div>
+                    @using (Html.BeginForm("Login", "Admin", FormMethod.Post, new { @id = "form1" }))
+                    {
+
+                        @*@Html.ValidationSummary()*@
+
+                        @if (ViewBag.message !=null)                        {
+                            <p class="alert alert-success">@ViewBag.message</p>
+
+                        }
+
+                        <div class="form-group">
+                            <label asp-for="AdminId">Admin Id</label>
+
+
+                            @Html.TextBoxFor(model => model.AdminId, htmlAttributes: new { @class = "form-control", name = "AdminId", @id = "AdminId" })
+
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Password">Password </label>
+
+                            @Html.PasswordFor(model => model.Password, htmlAttributes: new { @class = "form-control", name = "Password", @id = "Password" })
+
+                           
+                        </div>
+                        <div class="form-check">
+                            <label class="checkbox">
+                                <input type="checkbox" value="remember-me" id="remember_me"> Remember me
+                            </label>
+                        </div>
+                        <br>
+
+                        <input type="submit" id="k4" value="Submit" class="btn btn-primary" aria-pressed="false"
+                               autocomplete="off" />
+                        <br>
+                        <div id="k5">
+                            <p>
+                                Don't have an account? <a id="k7" onclick="Sign()" class="two">
+                                    SignUp
+                                </a>
+                            </p>
+
+                        </div>
+
+                    }
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+  
+    <script>
+
+         jQuery.validator.addMethod("noSpace", function (value, element) {
+            return value == '' || value.trim().length != 0;
+        }, "No space please and don't leave it empty");
+
+        var $AdminLogin = $('#form1');
+
+
+        if ($AdminLogin.length) {
+            $AdminLogin.validate({
+
+
+                rules: {
+                    AdminId: {
+                        required: true,
+                        noSpace: true
+                    },
+                    Password: {
+                        required: true
+                    }
+
+                },
+                messages:
+                {
+                    AdminId: {
+
+                        required: 'Please enter AdminId!'
+                    },
+                    Password: {
+
+                        required: 'Please enter password!'
+
+                    }
+
+                }
+            });
+        }
+
+
+           function Sign() {
+            window.location.href = "@Url.Action("SignUp", "Admin")?Id=" ;
+        }
+
+
+        $(function () {
+
+            debugger;
+
+            var person = {};
+             person.AdminId = $("#AdminId").val();
+             person.Password = $("#Password").val();
+
+            if (localStorage.chkbx && localStorage.chkbx != '') {
+                $('#remember_me').attr('checked', 'checked');
+              
+                $('#AdminId').val(localStorage.usrname);
+                $('#Password').val(localStorage.pass);
+
+            } else {
+                $('#remember_me').removeAttr('checked');
+                $('#AdminId').val('');
+                $('#Password').val('');
+            }
+
+
+            $('#remember_me').click(function () {
+
+                if ($('#remember_me').is(':checked')) {
+                    // save username and password
+                    localStorage.usrname = $('#AdminId').val();
+                    localStorage.pass = $('#Password').val();
+                    localStorage.chkbx = $('#remember_me').val();
+                } else {
+                    localStorage.usrname = '';
+                    localStorage.pass = '';
+                    localStorage.chkbx = '';
+                }
+            });
+        });
+
+
+
+
+
+
+
+//$("#btn-Get").click(function () {
+
+
+//    debugger;
+
+//    //var $AdminLogin1 = $('#Pass');
+//    //var tr = { Password: $AdminLogin1 };
+//    var person = {};
+//    person.AdminId = $("#AdminId").val();
+//    person.Password = $("#Password").val();
+//    var AdminId = $("#AdminId").val();
+//    var Passcode = $("#Password").val();
+//    $.ajax({
+
+//        type: "POST",
+//        url: "/Admin/Login",
+//        data: { AdminId: AdminId, Password: Passcode},
+//       // data: JSON.stringify(person),
+//       // data: $("#form1").serialize(),
+//        contentType: "application/json; charset=utf-8",
+
+//       // content = JsonConvert.SerializeObject(person),
+//        dataType: "json",
+
+//        success: function (response) {
+//            debugger;
+
+
+//            Window.location.href = "/Admin/Index";
+
+
+//        }
+//        ,
+//        error: function (response) {
+
+
+//        }
+
+//    });
+//});
+
+    </script>
+</body>
+
+</html>
+<
+
+       
